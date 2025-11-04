@@ -1,3 +1,5 @@
+// This source code is for a proprioceptive Actuator_v2. torque sensing using q-axis current sensing
+
 /**
  * 위치 기반 토크 제어 (전류제어 FOC) 예시 코드
  * 
@@ -11,8 +13,6 @@
  *  => motor.target = I_q_ref (단위: [A])
  *  => 실제 토크 T [N·m] = Kt [N·m/A] × I_q [A]
  */
-
-// This source code is for a proprioceptive actuator v2. torque sensing using q-axis current sensing
 
 #include <SimpleFOC.h>  // SimpleFOC 라이브러리
 #include <math.h>
